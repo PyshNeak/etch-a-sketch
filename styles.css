@@ -13,3 +13,7 @@
     flex: 1;
     aspect-ratio: 1/1;
 }
+
+.highlight {
+    background-color: gray;
+}

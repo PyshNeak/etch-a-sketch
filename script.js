@@ -12,3 +12,12 @@ for (let i = 0; i < 16; i++) {
     }
     container.appendChild(row);
 }
+
+// Set squares to highlight when passed over by mouse
+const squares = document.querySelectorAll('.grid-square');
+console.log(squares);
+squares.forEach((square) => {
+    square.addEventListener('mouseover', (e) => {
+        e.target.classList.toggle('highlight');
+    });
+});
