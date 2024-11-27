@@ -16,11 +16,6 @@
     aspect-ratio: 1/1;
 }
 
-.highlight {
-    background-color: gray;
-}
-
-
 button {
     background-color: blue;
     color: lightgray;
@@ -29,4 +24,14 @@ button {
     border-radius: 10px;
     padding: 10px 30px;
     margin: 10px 0px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: column;
 }
